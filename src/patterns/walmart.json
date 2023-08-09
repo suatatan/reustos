@@ -1,0 +1,61 @@
+{
+  "_id": "walmart",
+  "startUrl": ["https://www.walmart.com/reviews/product/266313209?page=[1-14]"],
+  "selectors": [
+    {
+      "id": "block",
+      "multiple": true,
+      "parentSelectors": ["_root"],
+      "selector": "div.w_HmLO",
+      "type": "SelectorElement"
+    },
+    {
+      "id": "text",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": "div.mid-gray",
+      "type": "SelectorText"
+    },
+    {
+      "id": "reviewer",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": "div.pl2",
+      "type": "SelectorText"
+    },
+    {
+      "id": "date",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": ".f7.gray",
+      "type": "SelectorText"
+    },
+    {
+      "id": "resp_text",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": ".b--lighter-gray",
+      "type": "SelectorText"
+    },
+    {
+      "id": "resp_date",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": ".date",
+      "type": "SelectorText"
+    },
+    {
+      "id": "star",
+      "multiple": false,
+      "parentSelectors": ["block"],
+      "regex": "",
+      "selector": ".mb3 div:nth-of-type(1)",
+      "type": "SelectorText"
+    }
+  ]
+}
