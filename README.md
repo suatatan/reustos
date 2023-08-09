@@ -62,3 +62,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ---
 
 We're excited to have you on board as we embark on this web scraping journey with **ReuStos**. Your contributions and feedback are highly valued as we work towards building a robust and versatile scraping toolkit. Let's make web scraping easier and more powerful together! 🌟
+
+## Philosohphy
+
+- **Download HTML first then exract**: Why? Because it's faster. No need to wait. Non-decoupled extraction sometimes gives error due to page load or other kind of problem. It makes the process tricky.
