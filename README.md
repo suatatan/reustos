@@ -1,4 +1,4 @@
-# ReuStos - Reusable Tool for Scraping 👾
+# ReuStos - Reusable Tools for Scraping 👾
 
 ![GitHub](https://img.shields.io/github/license/suatatan/reustos)
 ![GitHub stars](https://img.shields.io/github/stars/suatatan/reustos)
